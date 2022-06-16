@@ -26,7 +26,8 @@ public final class Language {
     // Static Data Fields
     //    
     private static final String defaultAlienSound = "~ ąļīæń ~ "; // Default
-
+    // create a static varible language here so you can save the user language
+    static string user_language;
     //
     // Instance Data Fields
     //
@@ -68,20 +69,13 @@ public final class Language {
     }
 
     public static void displayAppHeader() {
-        System.out.println("debug test ");
-        //Greeting.generateSFGiantsCard();getLanguage
+   
         System.out.println(Config.getOfficialAppHeader());
-        //Language(lang);
-        System.out.println("Language: " + Config.getDefaultLanguage());
-        System.out.println("Time Zone: " + Config.getDefaultTimeZone());
-
-        Scanner myObj = new Scanner(System.in); //taking usr input
-        System.out.print("Enter Language: ");
-        String lang = myObj.nextLine(); //lang made
 
     }
 
     public static Language setLanguagePreference() {
+//      Here you want to prompt the user for the language and timezone
         return new Language();
     }
 
