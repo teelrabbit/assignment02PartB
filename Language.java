@@ -69,18 +69,21 @@ public final class Language {
     }
 
     public static void displayAppHeader() {
-   
+//    only display the OfficialAppHeader() from config.
         System.out.println(Config.getOfficialAppHeader());
 
     }
 
     public static Language setLanguagePreference() {
-//      Here you want to prompt the user for the language and timezone
+//      Here you want to prompt the user for the language
+//      print Language
+//      get userinput
+//      save to global user_language
         return new Language();
     }
 
     public Object getLanguage() {
-
+//        Create a new user_language object and return it
         return new Language();
     }
 
@@ -93,7 +96,15 @@ public final class Language {
     }
 
     public String getConfigPhrase(int i) {
-        return "1";
+//         create a switch to retrieve correct phrases
+        switch(i){
+            case 0: return "-".repeat(70);
+            case 1: return "Language";
+//             time zone 
+//             color sequences
+//             standard output and etc. Refer to example for correct label styling
+        }
+        return null;
     }
 
     public String getGreetingPhrase(int i) {
