@@ -27,8 +27,9 @@ public final class Language {
     //    
     private static final String defaultAlienSound = "~ ąļīæń ~ "; // Default
     // create a static varible language here so you can save the user language
-    static string user_language;
-    //
+    static String user_language;
+    static String time_zone;
+    // _______________________________________________________________________________
     // Instance Data Fields
     //
 
@@ -79,6 +80,11 @@ public final class Language {
 //      print Language
 //      get userinput
 //      save to global user_language
+        Scanner myObj = new Scanner(System.in); //taking usr input
+        System.out.print("Language: ");
+        user_language = myObj.nextLine(); //lang made
+
+
         return new Language();
     }
 
@@ -99,7 +105,7 @@ public final class Language {
 //         create a switch to retrieve correct phrases
         switch(i){
             case 0: return "-".repeat(70);
-            case 1: return "Language";
+            case 1: return "Language: ";
 //             time zone 
 //             color sequences
 //             standard output and etc. Refer to example for correct label styling

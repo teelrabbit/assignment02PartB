@@ -12,8 +12,10 @@ package assignment02PartB;
 // Please organize all the given files in 1 same package
 // Please make sure to read the provided "_ListOf-PleaseDoNotChange.txt"
 
-public class Timer {
+import java.util.Scanner;
 
+public class Timer {
+    static String time_zone;
     //
     // Static Data Fields
     //
@@ -29,6 +31,9 @@ public class Timer {
     }
 
     public static Timer setTimeZonePreference() {
+        Scanner myObj = new Scanner(System.in); //taking usr input
+        System.out.print("Time Zone: ");
+        time_zone = myObj.nextLine(); //lang made
         return new Timer();
     }
 

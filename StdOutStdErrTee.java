@@ -30,6 +30,7 @@ public class StdOutStdErrTee extends OutputStream {
     }
 
     public void startLog() {
+
     }
 
     public void stopLog() {
