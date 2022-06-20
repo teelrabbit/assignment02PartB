@@ -32,7 +32,8 @@ public final class Color {
     }
 
     public Object getColorSequences() {
-        return null;
+
+        return Config.getDefaultColorSequences();
     }
 
     //

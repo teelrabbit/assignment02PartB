@@ -47,6 +47,9 @@ public final class ChatSession {
     private void stopChatSession() {
     }
     public void runChatSession() {
+        System.out.println("2021/06/06 02:04:11 [0228 ms] PM PDT - Chat session started.");
+        System.out.println("\nSF Giants: Welcome to the SAN FRANCISCO GIANTS!");
+        System.out.println("-".repeat(70));
     }
 
     //

@@ -29,7 +29,7 @@ public final class Directory {
     }
 
     public Object getPath() {
-        return null;
+        return Config.getDefaultLogDirectoryPath();
     }
 
     //

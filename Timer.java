@@ -38,7 +38,13 @@ public class Timer {
     }
 
     public Object getTimeZoneFormatted() {
-        return null;
+        switch (time_zone.toUpperCase()) {
+            case "PST": time_zone = "Pacific Standard Time in Day Light Saving";
+                        break;
+            //Object format_time = this.time_zone.toUpperCase();
+        }
+        Object format_time = this.time_zone;
+        return format_time;
     }
 
     //

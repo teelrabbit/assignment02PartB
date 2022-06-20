@@ -82,7 +82,7 @@ public final class Language {
 //      save to global user_language
         Scanner myObj = new Scanner(System.in); //taking usr input
         System.out.print("Language: ");
-        user_language = myObj.nextLine(); //lang made
+        user_language = myObj.nextLine().toUpperCase(); //lang made
 
 
         return new Language();
@@ -90,15 +90,16 @@ public final class Language {
 
     public Object getLanguage() {
 //        Create a new user_language object and return it
-        return new Language();
+        Object get_lang = this.user_language;
+        return get_lang;
     }
 
     public Object getUniversityPhrase(int i) {
-        return null;
+        return Config.getDefaultUniversity();
     }
 
     public Object getClubPhrase(int i) {
-        return null;
+        return Config.getDefaultClub();
     }
 
     public String getConfigPhrase(int i) {
@@ -106,11 +107,20 @@ public final class Language {
         switch(i){
             case 0: return "-".repeat(70);
             case 1: return "Language: ";
+            case 2: return "Time Zone: ";
+            case 3: return "Color Sequences: ";
+            case 4: return "Standard Output Log: ";
+            case 5: return "Standard Error Log:";
+            case 6: return "Receipt Log: ";
+            case 8: return "Default University: ";
+            case 9: return "Default Club: ";
+            default: return ""; // work on case 7
+
 //             time zone 
 //             color sequences
 //             standard output and etc. Refer to example for correct label styling
         }
-        return null;
+        //return null;
     }
 
     public String getGreetingPhrase(int i) {

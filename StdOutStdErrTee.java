@@ -22,11 +22,11 @@ public class StdOutStdErrTee extends OutputStream {
     }
 
     public Object getStdOutFilePath() {
-        return null;
+        return Config.getDefaultStdOutFilePath();
     }
 
     public Object getStdErrFilePath() {
-        return null;
+        return Config.getDefaultStdErrFilePath();
     }
 
     public void startLog() {
