@@ -16,6 +16,8 @@ public final class Manager extends Person {
 
     //
     // Instance Data Fields
+
+    static String Manager = "Gabe Kapler";
     //
 
     //

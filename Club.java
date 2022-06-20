@@ -17,11 +17,23 @@ public final class Club extends Organization {
     //
     // Instance Data Fields
     //
+    static String Short_name = "SF Giants";
+    static String Club = "San Francisco Giants";
+    static String Established = "1883";
+    static String Ballpark = "Oracle Park";
+    static String World_series_titles = "8";
+    static String NL_Pennants = "23";
+    static String Division_titles = "8";
+    static String Wild_cards = "3";
+
+
 
     //
     // Constructors
+
     //
     public Club(String defaultClub) {
+
     }
 
     public static String getOfficialSong() {

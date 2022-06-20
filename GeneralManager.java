@@ -17,7 +17,7 @@ public final class GeneralManager extends Person {
     //
     // Instance Data Fields
     //
-
+    static String Gen_manager = "Scott Harris";
     //
     // Constructors
     //

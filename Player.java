@@ -15,7 +15,7 @@ package assignment02PartB;
 public final class Player extends Person {
 
     // Instance Data Fields
-
+    static String player_Buaster = "Buster Posey ";
     //
     // Constructors
     //

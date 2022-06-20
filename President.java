@@ -13,7 +13,7 @@ package assignment02PartB;
 // Please make sure to read the provided "_ListOf-PleaseDoNotChange.txt"
 
 public final class President extends Person {
-
+    static String President = "Farhan Zaidi";
     //
     // Instance Data Fields
     //

@@ -24,7 +24,7 @@ public final class Color {
     //
     // Instance Data Fields
     //
-
+    static String Colors = "Orange, Black, Gold, Cream";
     //
     // Constructors
     //

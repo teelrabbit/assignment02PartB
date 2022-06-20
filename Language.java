@@ -114,6 +114,42 @@ public final class Language {
             case 6: return "Receipt Log: ";
             case 8: return "Default University: ";
             case 9: return "Default Club: ";
+            case 10: return "Club: ";
+            case 11: return "Short Name: ";
+            case 12: return "Established in: ";
+            case 13: return "Colors: ";
+            case 14: return "Ballpark: ";
+            case 15: return "World Series Titles: ";
+            case 16: return "NL Pennants: ";
+            case 17: return "Division Titles: ";
+            case 18: return "Wild Card Berths: ";
+            case 19: return "Owners: ";
+            case 20: return "President: ";
+            case 21: return "General Manager: ";
+            case 22: return "Manager: ";
+            case 23: return "Official Name: ";
+            case 24: return "Motto in Latin: ";
+            case 25: return "Motto in Latin: ";
+            case 26: return "Motto in English: ";
+            case 27: return "Type:  ";
+            case 28: return "Year of Establishment: ";
+            case 29: return "Location: ";
+            case 30: return "Address: ";
+            case 31: return "Colors: " ;
+            case 32: return "Nickname: ";
+            case 33: return "Mascot: ";
+            case 34: return "Website: ";
+            case 35: return "Player: ";
+            case 36: return "Club: ";
+            case 37: return "Position: ";
+            case 38: return "Number: ";
+            case 39: return "Bats: ";
+            case 40: return "Throws: ";
+            case 41: return "MLB Debut: ";
+
+
+
+
             default: return ""; // work on case 7
 
 //             time zone 

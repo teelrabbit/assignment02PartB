@@ -15,6 +15,7 @@ package assignment02PartB;
 public final class OwnerGroup extends Organization{
     //
     // Data fields
+    static String Owners = "San Francisco Baseball Associates LLC";
     //
 
     //
